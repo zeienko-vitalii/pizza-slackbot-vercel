@@ -1,0 +1,14 @@
+{
+  "name": "pizza-slackbot-vercel",
+  "version": "1.0.0",
+  "description": "Simple SlackBot that uses OpenAI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitalii Zeienko",
+  "license": "ISC",
+  "dependencies": {
+    "vercel": "^33.5.0"
+  }
+}
