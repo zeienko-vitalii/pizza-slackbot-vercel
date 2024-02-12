@@ -6,7 +6,8 @@ const openai = new OpenAI();
 
 export async function getGPTResponse(messages: ChatCompletionMessageParam[]) {
 	return await openai.chat.completions.create({
-		model: "gpt-3.5-turbo",
+		model: "asst_QKK44Nuu3QLPOpYOV8Jn1RcO",
+		// model: "gpt-3.5-turbo",
 		messages,
 	});
 }
